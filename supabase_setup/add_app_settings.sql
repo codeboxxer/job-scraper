@@ -1,3 +1,5 @@
+
+
 -- Migration: Add app_settings table for dynamic configuration
 CREATE TABLE IF NOT EXISTS "public"."app_settings" (
     "id" "uuid" DEFAULT "gen_random_uuid"() NOT NULL PRIMARY KEY,
